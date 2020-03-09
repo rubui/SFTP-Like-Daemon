@@ -1,0 +1,21 @@
+This program was completed using pair programming.
+Partner: Melanie Lum (mhlum@ucsc.edu)
+Partner: Rebecca Bui (rubui@ucsc.edu)
+
+We acknowledge that each partner in a programming pair is
+responsible for the work performed by the other partner,
+and has been reviewed by both partners working together.
+
+We edited our code to print out some error messages and
+statements about what kind of messages were received. We
+also left most of the professor's code. 
+
+When we looked at the SCORE file, it said a "get" should
+send back a CIX_FILE packet, according to the assignment
+doc,  we interpreted this as CIX_FILEOUT instead.
+
+Melanie Lum spent 1 hours working alone.
+Rebecca Bui spent 1 hour  working alone.
+We spent         10 hours working together.
+Melanie Lum spent 5 hours driving.
+Rebecca Bui spent 5 hours driving.

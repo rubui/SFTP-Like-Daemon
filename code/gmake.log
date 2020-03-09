@@ -1,0 +1,18 @@
+/afs/cats.ucsc.edu/courses/cmps109-wm/bin/checksource cix.cpp
+/afs/cats.ucsc.edu/courses/cmps109-wm/bin/cpplint.py.perl cix.cpp
+Done processing cix.cpp
+g++ -std=gnu++17 -g -O0 -Wall -Wextra -Werror -Wpedantic -Wshadow -Wold-style-cast -fdiagnostics-color=never -c cix.cpp
+/afs/cats.ucsc.edu/courses/cmps109-wm/bin/checksource protocol.cpp
+/afs/cats.ucsc.edu/courses/cmps109-wm/bin/cpplint.py.perl protocol.cpp
+Done processing protocol.cpp
+g++ -std=gnu++17 -g -O0 -Wall -Wextra -Werror -Wpedantic -Wshadow -Wold-style-cast -fdiagnostics-color=never -c protocol.cpp
+/afs/cats.ucsc.edu/courses/cmps109-wm/bin/checksource sockets.cpp
+/afs/cats.ucsc.edu/courses/cmps109-wm/bin/cpplint.py.perl sockets.cpp
+Done processing sockets.cpp
+g++ -std=gnu++17 -g -O0 -Wall -Wextra -Werror -Wpedantic -Wshadow -Wold-style-cast -fdiagnostics-color=never -c sockets.cpp
+g++ -std=gnu++17 -g -O0 -Wall -Wextra -Werror -Wpedantic -Wshadow -Wold-style-cast -fdiagnostics-color=never -o cix cix.o protocol.o sockets.o
+/afs/cats.ucsc.edu/courses/cmps109-wm/bin/checksource cixd.cpp
+/afs/cats.ucsc.edu/courses/cmps109-wm/bin/cpplint.py.perl cixd.cpp
+Done processing cixd.cpp
+g++ -std=gnu++17 -g -O0 -Wall -Wextra -Werror -Wpedantic -Wshadow -Wold-style-cast -fdiagnostics-color=never -c cixd.cpp
+g++ -std=gnu++17 -g -O0 -Wall -Wextra -Werror -Wpedantic -Wshadow -Wold-style-cast -fdiagnostics-color=never -o cixd cixd.o protocol.o sockets.o
